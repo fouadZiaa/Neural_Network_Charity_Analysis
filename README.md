@@ -25,20 +25,20 @@ The model was not able to reach the target 75%. The accuracy for this model was 
 
 Several attempts were made to optimize the model for higher accuracy, however as it can be seen below that none of the attempts were successful. 
 
-Attempt 1: Removing an additional feature 'USE_CASE'. Model accuracy went down to 53%.
+Attempt 1: Removing an additional feature 'USE_CASE'. Model accuracy went down to 64.5%.
 
 ![Pic2](https://github.com/fouadZiaa/Neural_Network_Charity_Analysis/blob/c1cc2f9200a593ab8386519a3cfd103e003670cc/Resources/Accuracy%20Optimization%20Attempt%201.png)
 
 
-Attempt 2: Additional neurons were added to the hidden layers and additional hidden layers were added as well. The accuracy went down again to 47%.
+Attempt 2: Additional neurons were added to the hidden layers and additional hidden layers were added as well. The accuracy went down again to 53%.
 
 ![Pic 3](https://github.com/fouadZiaa/Neural_Network_Charity_Analysis/blob/c1cc2f9200a593ab8386519a3cfd103e003670cc/Resources/Accuracy%20Optimization%20Attempt%202.png)
 
 
-Attempt 3: Activation function of output layer was changed from "sigmoid" to "tanh." The accuracy of the model went down even more to 50%.
+Attempt 3: Activation function of output layer was changed from "sigmoid" to "tanh." The accuracy of the model went down even more to 47%.
 
 ![Pic 4](https://github.com/fouadZiaa/Neural_Network_Charity_Analysis/blob/c1cc2f9200a593ab8386519a3cfd103e003670cc/Resources/Accuracy%20Optimization%20Attempt%203.png)
 
 
 # Summary
-The model ended up with the accuracy score of 50% after optimization. The initial neural network had a accuracy score of 69%. This loss in accuracy can be explained from the fact that the model overfitted. Furthermore, we could further also optimize our neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. Also the random forest models have a faster performance than neural networks and could have avoided the data from being overfitted.
+The model ended up with the accuracy score of 50% after optimization. The initial neural network had a accuracy score of 65.5%. This loss in accuracy can be explained from the fact that the model overfitted. Furthermore, we could further also optimize our neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. Also the random forest models have a faster performance than neural networks and could have avoided the data from being overfitted.
