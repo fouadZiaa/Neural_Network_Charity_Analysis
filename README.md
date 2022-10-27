@@ -1,4 +1,4 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
 ## Overview of the Analysis
 
 Using Machine Learning and Neural Networks, we used the features in the dataset to create a binary classifier that would help in predicting which applicants had a higher chance of success funded by the Alphabet Soup charity. For this analysis we had a dataset containing various measures on 34,000 organizations that have been funded by Alphabet Soup. In order to achieve the desired outcome, we perfomed following tasks:
