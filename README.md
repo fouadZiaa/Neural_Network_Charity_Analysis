@@ -9,9 +9,9 @@ Using Machine Learning and Neural Networks, we used the features in the dataset 
 
 # Results
 ## Data Preprocessing
-Target Variable:   IS_SUCCESSFUL 
-Feature Variables: Every remaining column which is left after clean up with the exception of IS_SUCCESSFUL 
-Dropped Variables: EIN, NAME 
+- Target Variable:   IS_SUCCESSFUL 
+- Feature Variables: Every remaining column which is left after clean up with the exception of IS_SUCCESSFUL 
+- Dropped Variables: EIN, NAME 
 
 ## Compiling, Training and Evaluating the Model
 
